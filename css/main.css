@@ -1,0 +1,136 @@
+body {
+  background: #ecede8;
+  font-family: 'Raleway', sans-serif;
+}
+
+.bgimage {
+    background-image: url('../imgs/sibilla.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.maincontent {
+  padding-top: 50px;
+  background: #ecede8;
+  background-image: url('../imgs/chor.jpg');
+  background-repeat: repeat;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+#header {
+    width: 100%;
+    height: 400px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 0px;
+}
+
+#headerinfo {
+    position: absolute;
+    left: 20%;
+    top: 140px;
+    width: 80%;
+}
+
+.imgjaco {
+    vertical-align: middle;
+    /*border: 3px solid white;
+    box-shadow: #AAA 0px 0px 4px 0px;
+    border-bottom: thick solid #ffffff;*/
+    float: left;
+}
+
+.uline {
+    color: red;
+    text-decoration: underline dotted red;
+}
+
+#headertext {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-left: 220px;
+}
+
+#headername {
+  font-size: 46px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  text-shadow: 2px 2px 8px black, 0px 0px 10px black;
+}
+
+#headerrole {
+  font-size: 22px;
+  font-weight: 300;
+  margin-top: -6px;
+  margin-bottom: 0px;
+  text-shadow: 2px 2px 10px black, 0px 0px 10px black;
+}
+
+#social-icons {
+  margin-top: 1vmin;
+}
+
+#post-header {
+  margin-bottom: 1px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.time {
+  color: #000;
+  font-weight: bold;
+}
+
+.posi {
+  /*color: rgb(151, 183, 114);
+  font-size: 12pt;*/
+  font-weight: 400;
+}
+
+.place {
+  color: rgb(0, 0, 0);
+}
+
+.hrcolored {
+  margin-top: 0px;
+  height: 5px;
+  border-top: 0;
+  border-radius: 5px;
+  background: #c4e17f;
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%,
+    #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%,
+    #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  padding-right: 50%;
+  background-origin: content-box;
+  background-size: 200%;
+}
+
+.hrcolored-v2 {
+  border: 0;
+  height: 4px;
+  margin: 0px -1px 10px -1px;
+  background: #c4e17f;
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%,
+    #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%,
+    #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-origin: content-box;
+  padding-right: 50%;
+  background-size: 200%;
+}
+
+.ui.cards > .card {
+  margin-bottom: 0px;
+}
+
+.ui.center.aligned.images {
+  margin-top: 2.5vmin;
+  margin-bottom: 2vmin;
+}
+
+.ui.fixed.single.line.celled.table {
+  margin-top: 1vmin;
+}
